@@ -1,0 +1,11 @@
+export {default as Agriculturesector} from "./Agriculturesector";
+export {default as Agricultureruraldevsector} from "./Agricultureruraldevsector";
+export {default as Bpo} from "./Bpo";
+export {default as Bpoites} from "./Bpoites"; 
+export {default as Financialservices} from "./Financialservices"; 
+export {default as Infrastrucure} from "./Infrastrucure"; 
+export {default as Landreforms} from "./Landreforms"; 
+export {default as Manufacturing} from "./Manufacturing"; 
+export {default as Mineralresources} from "./Mineralresources"; 
+export {default as Tourism} from "./Tourism"; 
+export {default as Trade} from "./Trade"; 

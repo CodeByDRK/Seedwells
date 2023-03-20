@@ -1,0 +1,11 @@
+export {default as Header} from "./Header";
+export {default as Aboutus} from "./Aboutus";
+export {default as Landing} from "./Landing";
+export {default as Footer} from "./Footer";
+export {default as Contact} from "./Contact";
+export {default as Vacancies} from "./Vacancies";
+export {default as Publications} from "./Publications";
+export {default as Blogs} from "./Blogs";
+export {default as Pressreleases} from "./Pressreleases";
+export {default as Economicsandmacro} from "./Economicsandmacro";
+export {default as Pagination} from "./Pagination";

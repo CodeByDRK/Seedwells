@@ -1,0 +1,79 @@
+import React, { useState } from 'react'
+import Arrowdown from '../../img/arrow-down.png';
+
+export default function Agriculturesector() {
+
+  const [active, setActive] = useState('')
+  
+  function activator(e) {
+    const boxTitle = e.target.innerHTML;
+    if (active == boxTitle){
+      setActive('')
+    } else {
+      setActive(boxTitle)
+      console.log(active)
+    }
+  }
+
+  return (
+    <div className='rendered-container'>
+      <h3 id='Agriculture'>Agriculture</h3>
+
+      {/*Development box*/}
+      <div className="dev-box">
+        <h4 onClick={activator} ><p>ASAL Development – Irrigation</p> <img src={Arrowdown} alt="" /></h4>
+        <div className={ active == "ASAL Development – Irrigation" ? 'box-info' : 'hidden-sector'}>
+          <div className="dev-about">
+            <p><span>About :</span> 404,800 hectares will be put under irrigation by 2017 especially in the Arid and Semi Arid area in Turkana and Tana Delta.  </p>
+            <p><span>Impact :</span> Increase irrigated land by million acres (especially in Turkana and Tana Delta) </p>
+          </div>
+        </div>
+      </div>
+
+      {/*Development box*/}
+      <div className="dev-box">
+        <h4 onClick={activator} ><p>Fisheries Development and Management</p> <img src={Arrowdown} alt="" /></h4>
+        <div className={ active == "Fisheries Development and Management" ? 'box-info' : 'hidden-sector'}>
+          <div className="dev-about">
+            <p><span>About :</span> 404,800 hectares will be put under irrigation by 2017 especially in the Arid and Semi Arid area in Turkana and Tana Delta.  </p>
+            <p><span>Impact :</span> Increase irrigated land by million acres (especially in Turkana and Tana Delta) </p>
+          </div>
+        </div>
+      </div>
+
+      {/*Development box*/}
+      <div className="dev-box">
+        <h4 onClick={activator} ><p>Establishment of Disease Free Zones (DFZ)</p> <img src={Arrowdown} alt="" /></h4>
+        <div className={ active == "Establishment of Disease Free Zones (DFZ)" ? 'box-info' : 'hidden-sector'}>
+          <div className="dev-about">
+            <p><span>About :</span> 404,800 hectares will be put under irrigation by 2017 especially in the Arid and Semi Arid area in Turkana and Tana Delta.  </p>
+            <p><span>Impact :</span> Increase irrigated land by million acres (especially in Turkana and Tana Delta) </p>
+          </div>
+        </div>
+      </div>
+
+      {/*Development box*/}
+      <div className="dev-box">
+        <h4 onClick={activator} ><p>Fertilizer Cost Reduction Strategy</p> <img src={Arrowdown} alt="" /></h4>
+        <div className={ active == "Fertilizer Cost Reduction Strategy" ? 'box-info' : 'hidden-sector'}>
+          <div className="dev-about">
+            <p><span>About :</span> 404,800 hectares will be put under irrigation by 2017 especially in the Arid and Semi Arid area in Turkana and Tana Delta.  </p>
+            <p><span>Impact :</span> Increase irrigated land by million acres (especially in Turkana and Tana Delta) </p>
+          </div>
+        </div>
+      </div>
+
+      {/*Development box*/}
+      <div className="dev-box">
+        <h4 onClick={activator} ><p>Implementation of the Consolidated Agricultural Reform Legislations</p> <img src={Arrowdown} alt="" /></h4>
+        <div className={ active == "Implementation of the Consolidated Agricultural Reform Legislations" ? 'box-info' : 'hidden-sector'}>
+          <div className="dev-about">
+            <p><span>About :</span> 404,800 hectares will be put under irrigation by 2017 especially in the Arid and Semi Arid area in Turkana and Tana Delta.  </p>
+            <p><span>Impact :</span> Increase irrigated land by million acres (especially in Turkana and Tana Delta) </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  )
+}

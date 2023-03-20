@@ -1,0 +1,128 @@
+export const pressReleaseData = [
+    {
+      id: 22,
+      releaseName: "This is press release  22",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 21,
+      releaseName: "This is press release  21",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 20,
+      releaseName: "This is press release  20",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 19,
+      releaseName: "This is press release  19",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 18,
+      releaseName: "This is press release  18",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 17,
+      releaseName: "This is press release  17",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 16,
+      releaseName: "This is press release  16",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 15,
+      releaseName: "This is press release  15",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 14,
+      releaseName: "This is press release  14",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 13,
+      releaseName: "This is press release  13",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 12,
+      releaseName: "This is press release  12",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 11,
+      releaseName: "This is press release  11",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 10,
+      releaseName: "This is press release  10",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 9,
+      releaseName: "This is press release  9",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 8,
+      releaseName: "This is press release  8",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 7,
+      releaseName: "This is press release  7",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id:5,
+      releaseName: "This is press release  5",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id:4,
+      releaseName: "This is press release  4",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 3,
+      releaseName: "This is press release  3",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id:2,
+      releaseName: "This is press release  2",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    },
+    {
+      id: 1,
+      releaseName: "This is press release  1",
+      releasePublishDate: "Published 10/10/2023",
+      releaseLink: '/Aboutvision',
+    }
+]
